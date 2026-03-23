@@ -38,7 +38,7 @@ Publish config:
 php artisan vendor:publish --provider "G4T\EaseRoute\EaseRouteServiceProvider"
 ```
 
-This creates `config/easyroute.php`:
+This creates `config/route-attribute.php`:
 
 ```bash
 return [
