@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/images/image_1.png" width="400" alt="EasyRoute Logo">
+  <img src="./src/images/image_1.png" alt="EasyRoute Logo">
 </p>
 
 # 🌟 EasyRoute Attributes for Laravel 13
