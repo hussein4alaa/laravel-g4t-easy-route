@@ -6,7 +6,9 @@
 
 A **Laravel 13 package** that lets you define routes using **PHP 8 attributes** with full support for Controller-level routes, Method-level routes, middleware, subfolders, and caching via Laravel’s `routes-v7.php`.  
 
-![EasyRoute Features Banner]("./src/images/image_2.png")
+<p align="center">
+  <img src="./src/images/image_2.png" alt="EasyRoute Features Banner">
+</p>
 
 ---
 
@@ -53,9 +55,9 @@ Controller-level Route
 
 namespace App\Http\Controllers;
 
-use G4T\RouteAttribute\Attributes\Route;
-use G4T\RouteAttribute\Attributes\Get;
-use G4T\RouteAttribute\Attributes\Post;
+use G4T\EaseRoute\Attributes\Route;
+use G4T\EaseRoute\Attributes\Get;
+use G4T\EaseRoute\Attributes\Post;
 
 #[Route(uri: 'users', middleware: ['auth'])]
 class UserController extends Controller
