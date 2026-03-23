@@ -102,7 +102,7 @@ To improve performance, EasyRoute can use Laravel compiled routes instead of sca
 </p>
 
 Steps:
-1. Ensure cache is enabled in `config/easyroute.php`:
+1. Ensure cache is enabled in `config/route-attribute.php`:
 
 ```php
 'cache' => true
