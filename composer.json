@@ -1,0 +1,56 @@
+{
+  "name": "g4t/easyroute",
+  "description": "Modern Laravel 13 routing using PHP 8 attributes with auto-generation, nested controller support, and native route caching.",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "laravel 13",
+    "routing",
+    "attributes",
+    "php 8 attributes",
+    "easyroute",
+    "clean-code",
+    "route-attributes"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "HusseinAlaa",
+      "email": "hussein4alaa@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "illuminate/support": "^13.0",
+    "illuminate/routing": "^13.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "G4T\\EaseRoute\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "G4T\\EaseRoute\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "G4T\\EaseRoute\\EaseRouteServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
