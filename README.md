@@ -2,7 +2,7 @@
   <img src="./src/images/image_1.png" alt="EasyRoute Logo">
 </p>
 
-# 🌟 Laravel G4T easyRoute Attributes for Laravel 13
+# 🌟 Laravel 13 G4T easyRoute Attributes
 
 A **Laravel 13 package** that lets you define routes using **PHP 8 attributes** with full support for Controller-level routes, Method-level routes, middleware, subfolders, and caching via Laravel’s `routes-v7.php`.  
 
